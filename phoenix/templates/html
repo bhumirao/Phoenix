@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html lang="">
+
+<head>
+  
+<title>Dashboard</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="assests/css.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay" style="background-image:url('images/mainimage.jpg');"> 
+  <!-- ################################################################################################ -->
+  <div class="wrapper row0">
+    <div id="topbar" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      
+     
+      <!-- ################################################################################################ -->
+    </div>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear">
+      
+      <div id="logo" class="fl_left"> 
+        <!-- ################################################################################################ -->
+        <h1>Meet   Phoenix </h1>
+        <!-- ################################################################################################ -->
+      </div>
+      
+         
+    </header>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div id="pageintro" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <article>
+      <p>One destination to all your problems</p>
+      
+      <p>Managing collge with tech co-curriculars is tough but not anymore!! </p>
+      <p>Managing.Built Better </p>
+     
+    </article>
+    <!-- ################################################################################################ -->
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <section id="services">
+      <h6 class="heading font-x3">Categories</h6>
+      
+      <ul class="nospace group">
+        <li class="one_quarter">
+          <article><img src="images/seminars.jpg" alt="">
+            <h6 class="heading">Seminars</h6>
+           <footer><a class="btn" href="#">See More</a></footer>
+          </article>
+        </li>
+        <li class="one_quarter">
+          <article><img src="images/hiring.jpg" alt="">
+            <h6 class="heading">Hiring</h6>
+          
+            <footer><a class="btn" href="#">See More</a></footer>
+          </article>
+        </li>
+        <li class="one_quarter">
+          <article><img src="images/compt.png" alt="">
+            <h6 class="heading">Competitions</h6>
+            
+            <footer><a class="btn" href="#">See More</a></footer>
+          </article>
+        </li>
+        <li class="one_quarter">
+          <article><img src="images/pos.jpg" alt="" height="300px">
+            <h6 class="heading">Post</h6>
+            
+            <footer><a class="btn" href="#">See More</a></footer>
+          </article>
+        </li>
+      </ul>
+    </section>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="bgded overlay" style="background-color:#5b56ba;">
+  <section class="hoc container clear">
+    <div class="points group"> 
+      <!-- ################################################################################################ -->
+      <div class="sectiontitle">
+        
+        <h6 class="heading font-x2">TimeLine</h6>
+        <div class="timeline">
+          <div class="timeline__component">
+            <div class="timeline__date timeline__date--right">October 30, 2022</div>
+          </div>
+          <div class="timeline__middle">
+            <div class="timeline__point"></div>
+          </div>
+          <div class="timeline__component timeline__component--bg">
+            <h2 class="timeline__title">Marketing Seminar</h2>
+            <p class="timeline__paragraph">Two hour seminar for introducing to the basics of marketing
+             
+            </p>
+          </div>
+          <div class="timeline__component timeline__component--bg">
+            <h2 class="timeline__title">Hackathon</h2>
+            <p class="timeline__paragraph">
+              Duration of three days
+            </p>
+           
+          </div>
+          <div class="timeline__middle">
+            <div class="timeline__point"></div>
+          </div>
+          <div class="timeline__component">
+            <div class="timeline__date">January 25, 2023</div>
+          </div>
+          <div class="timeline__component">
+            <div class="timeline__date timeline__date--right">February 3, 2023</div>
+          </div>
+          <div class="timeline__middle">
+            <div class="timeline__point"></div>
+          </div>
+          <div class="timeline__component timeline__component--bg">
+            <h2 class="timeline__title">Final Exams</h2>
+            <p class="timeline__paragraph">
+              Duration of 2 weeks
+            </p>
+          </div>
+          <div class="timeline__component timeline__component--bottom timeline__component--bg">
+            <h2 class="timeline__title">Volleyball Competition</h2>
+            <p class="timeline__paragraph">
+              
+            </p>
+            <p class="timeline__paragraph">
+              Players selection will take place a month before
+            </p>
+          </div>
+          <div class="timeline__middle">
+            <div class="timeline__point"></div>
+            <div class="timeline__point timeline__point--bottom"></div>
+          </div>
+          <div class="timeline__component timeline__component--bottom">
+            <div class="timeline__date">June 1, 2023</div>
+          </div>
+        </div>
+      </div>
+      
+      
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Bottom Background Image Wrapper -->
+
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  
+<!-- End Bottom Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
