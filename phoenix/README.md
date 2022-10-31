@@ -32,7 +32,7 @@ A minimal website for posting opportunities or other information by college/scho
     cd phoenix
     virtualenv venv # create virtual env
     venv\scripts\activate  # run this command everytime before starting on the project
-    ---pip install -r requirements.txt
+    
     ```
 
 5. For running the server
