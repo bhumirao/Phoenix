@@ -13,6 +13,13 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 from pathlib import Path
 import os
 import environ
+import cloudinary
+
+
+
+import cloudinary.uploader
+import cloudinary.api
+
 
 # Initialise environment variables
 env = environ.Env()
@@ -45,6 +52,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'cloudinary_storage',
+    'cloudinary',
+    'media',
     
 ]
 
@@ -142,3 +152,10 @@ STATICFILES_DIRS = [
     '/var/www/static/',
     
 ]
+
+
+'''
+MEDIA_URL='/phoenix/'
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
+'''

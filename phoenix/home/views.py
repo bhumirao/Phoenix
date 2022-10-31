@@ -19,3 +19,8 @@ def landing(request):
 def landing(request):
     return render(request,'landing.html')
 
+def calendar(request):
+    return render(request,'calendar.html')
+
+def login(request):
+    return render(request,'login.html')
