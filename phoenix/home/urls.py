@@ -6,5 +6,6 @@ from home import views
 
 
 urlpatterns = [
-    path("",views.index,name="home")
+    path("",views.landing,name="first"),
+    #path("home",views.home,name="home")
 ]
