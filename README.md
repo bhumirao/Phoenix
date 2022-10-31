@@ -13,8 +13,8 @@ A minimal website for posting opportunities or other information by college/scho
 * Teachers can login and post notices.
 * Students can only view notices.
 * Individual section for each kind of opportunity eg- seminar,contests or hiring .
-* Centrally controlled by a single user that is the admin ( whose priveledges are given to all teachers) .
-* Opportunities can be mentioned by short descrition .
+* Centrally controlled by a single user that is the admin ( whose priviliges are given to all teachers) .
+* Opportunities can be marked in the personal calendar avail to each user .
 * Responsive design.
 
 
@@ -33,7 +33,7 @@ A minimal website for posting opportunities or other information by college/scho
     cd phoenix
     virtualenv venv # create virtual env
     venv\scripts\activate  # run this command everytime before starting on the project
-    ---pip install -r requirements.txt
+    
     ```
 
 5. For running the server
