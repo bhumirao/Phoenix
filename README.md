@@ -13,8 +13,8 @@ A minimal website for posting opportunities or other information by college/scho
 * Teachers can login and post notices.
 * Students can only view notices.
 * Individual section for each kind of opportunity eg- seminar,contests or hiring .
-* Centrally controlled by a single user that is the admin ( whose priviliges are given to all teachers) .
-* Opportunities can be marked in the personal calendar avail to each user .
+* Centrally controlled by a single user that is the admin **( username:admin ; password:password)** .
+* ***Opportunities can be marked*** in the personal calendar avail to each user .
 * Responsive design.
 
 
