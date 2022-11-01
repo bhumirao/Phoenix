@@ -32,7 +32,8 @@ A minimal website for posting opportunities or other information by college/scho
     ```shell
     cd phoenix
     virtualenv venv # create virtual env
-    venv\scripts\activate  # run this command everytime before starting on the project
+    venv\scripts\activate  # run this command everytime before starting on the project(for linux: source venv/bin/activate)
+    pip install -r requirements.txt
     
     ```
 
