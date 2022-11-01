@@ -24,7 +24,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls')),
     path('post/', home_view, name='home'),
+    path('form/',views.forum, name='forum'),
     path('savePost/',views.savePost,name='savePost'),
+    path('thank/',views.thank,name='thank'),
 
     
     

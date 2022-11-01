@@ -35,6 +35,8 @@ def login(request):
 def forum(request):
     return render(request, 'form.html')
 
+def thank(request):
+    return render(request, 'thank.html')
 
 
 
@@ -46,6 +48,9 @@ def savePost(request):
         date=request.POST.get('date')
         descr=request.POST.get('description')
         en=postEnquiry(title=title,type=type,date=date,description=descr)
+        en.save()
+
+        return render(request, '<h1 align=center>Thanks a bunch for filling that out. It means a lot to us,<br> just like you do! We really appreciate you giving us a moment of your time today. Thanks for being you :)</p>')
 
 
 

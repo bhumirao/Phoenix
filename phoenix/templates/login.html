@@ -123,8 +123,7 @@
         var password=document.getElementById("password").value;
         if(username=="admin"&& password=="password")
         { 
-           form.submit();
-           window.location.href = "form.html";
+          alert("login successful");
 
            
            
@@ -145,8 +144,8 @@
     <div class="center">
       <h1>Login</h1>
 
-      <form method="post">
-      {% csrf_token %} //csrf token inserted here.
+      <form method="GET"  action="/form" novalidate>
+      {% csrf_token %} 
 
         <div class="txt_field">
           <input type="text" id = "username" required> 
@@ -159,7 +158,7 @@
           <span></span>
           <label>Password</label>
         </div>
-        <input type="submit" value="Login"  onclick="validate()"><a href="/logv"></a>
+        <input type="submit" value="Login"  onclick=validate()>
         
         <div class="signup_link">
         </div>

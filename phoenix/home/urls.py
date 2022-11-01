@@ -11,6 +11,7 @@ urlpatterns = [
     path("calneder",views.calendar,name="calendar"),
     path("login",views.login,name="login"),
     path("logv",views.forum,name="forum"),
+    path("save",views.savePost,name="save"),
     
 ]
 
